@@ -29,7 +29,7 @@ import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
     NavMenuComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
