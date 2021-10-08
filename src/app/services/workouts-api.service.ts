@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class WorkoutsApiService {
-  private baseUrl = 'http://localhost:3000';
+  private baseUrl = 'http://localhost:5000';
 
   constructor(private http: HttpClient) { }
 
